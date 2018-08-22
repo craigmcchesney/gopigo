@@ -1,0 +1,15 @@
+This repo contains python related to the gopigo robot car.  I used this to
+teach python to some high school students a couple of years ago.
+
+There is currently a single folder "autonomy" that contains two src files,
+"autonomy" and "autonomy-cannon.py".  The first is a simple autonomous
+navigation program that moves the car around while trying to avoid obstacles.
+The second adds to that a usb-controlled nerf cannon, so that when an
+obstacle is encountered the cannon fires a missile before navigating away.
+
+The files need to be installed on the gopigo (raspberry pi platform) and run
+on the car using python, by logging in remotely to it in order to start the
+program.
+
+See https://www.dexterindustries.com/gopigo2-tutorials-documentation/ for more
+details.
